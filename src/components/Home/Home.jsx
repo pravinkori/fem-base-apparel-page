@@ -9,7 +9,7 @@ function HomePage() {
       <nav className={styles.logo}>
         <img src={logo} alt="logo" />
       </nav>
-      <section>
+      <section className={styles.container}>
         <picture className="">
           <img src={mobileImage} alt="picture of a women" />
         </picture>
