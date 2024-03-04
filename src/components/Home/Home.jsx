@@ -33,7 +33,7 @@ function HomePage() {
               className={styles["form-input"]}
             />
             <button aria-label="Submit" className={styles["submit-btn"]}>
-              <img alt="" src={arrowIcon} />
+              <img alt="submit" src={arrowIcon} />
             </button>
           </form>
         </div>
