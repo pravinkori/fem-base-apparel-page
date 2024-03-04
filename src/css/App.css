@@ -1,0 +1,29 @@
+:root {
+  --clr-primary-400: hsl(0, 93%, 68%);
+  --clr-primary-500: hsl(0, 36%, 70%);
+
+  --clr-neutral-300: hsl(0, 6%, 24%);
+
+  --ff-base: "Josefin Sans", sans-serif;
+
+  --fw-medium: 500;
+  --fw-bold: 700;
+  --fw-extra-bold: 900;
+
+  --fs-300: 0.875rem;
+  --fs-400: 1rem;
+  --fs-500: 1.125rem;
+  --fs-600: 1.25rem;
+  --fs-700: 1.5rem;
+}
+
+body {
+  /* display: grid;
+  place-content: center; */
+  font-family: var(--ff-base);
+  font-size: var(--fs-400);
+  background-image: url("../assets/images/bg-pattern-desktop.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
