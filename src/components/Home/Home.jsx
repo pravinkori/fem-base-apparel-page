@@ -26,8 +26,13 @@ function HomePage() {
 
           <form>
             <label htmlFor="email-input"></label>
-            <input placeholder="Email Address" type="email" id="email-input" />
-            <button aria-label="Submit" className="submit-btn">
+            <input
+              placeholder="Email Address"
+              type="email"
+              id="email-input"
+              className={styles["form-input"]}
+            />
+            <button aria-label="Submit" className={styles["submit-btn"]}>
               <img alt="" src={arrowIcon} />
             </button>
           </form>
