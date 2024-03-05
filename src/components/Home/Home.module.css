@@ -61,6 +61,7 @@ form {
   font-size: 1rem;
   line-height: 1.4rem;
   color: hsl(0, 6%, 24%);
+  background: transparent;
 }
 
 .form-input input::placeholder {
