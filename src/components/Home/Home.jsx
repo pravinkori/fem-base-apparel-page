@@ -37,58 +37,58 @@ function HomePage() {
       <nav className={styles.logo}>
         <img src={logo} alt="logo" />
       </nav>
-      <section className={styles.container}>
+      <div className={styles.hero}>
         <picture className={styles["hero-img"]}>
-          <source srcSet={desktopImage} media="(min-width: 600px)" />
+          <source srcSet={desktopImage} media="(min-width: 1440px)" />
           <img src={mobileImage} alt="picture of a women" />
         </picture>
-        <div className={styles["page-content"]}>
-          <h1 className={styles["page-title"]}>
-            we&apos;re<span> coming soon</span>
-          </h1>
+      </div>
+      <div className={styles["page-content"]}>
+        <h1 className={styles["page-title"]}>
+          we&apos;re<span> coming soon</span>
+        </h1>
 
-          <p className={styles["page-description"]}>
-            Hello fellow shoppers! We&apos;re currently building our new fashion
-            store. Add your email below to stay up-to-date with announcements
-            and our launch deals
-          </p>
+        <p className={styles["page-description"]}>
+          Hello fellow shoppers! We&apos;re currently building our new fashion
+          store. Add your email below to stay up-to-date with announcements and
+          our launch deals
+        </p>
 
-          <form
-            onSubmit={handleSubmit}
-            className={errorMessage ? styles["form-alert"] : ""}
-          >
-            <div className={styles["form-input"]}>
-              <input
-                placeholder="Email Address"
-                type="email"
-                id="email-input"
-                value={email}
-                onChange={handleChange}
-                className={errorMessage ? styles["input-error"] : ""}
-              />
-              <span
-                className={styles["error-icon"]}
-                style={{ display: errorMessage ? "flex" : "none" }}
-              >
-                <img src={errorIcon} alt="" aria-hidden="true" />
-              </span>
-            </div>
-            <button
-              aria-label="Submit"
-              className={styles["submit-btn"]}
-              type="submit"
-            >
-              <img alt="submit" src={arrowIcon} />
-            </button>
+        <form
+          onSubmit={handleSubmit}
+          className={errorMessage ? styles["form-alert"] : ""}
+        >
+          <div className={styles["form-input"]}>
+            <input
+              placeholder="Email Address"
+              type="email"
+              id="email-input"
+              value={email}
+              onChange={handleChange}
+              className={errorMessage ? styles["input-error"] : ""}
+            />
             <span
-              className={styles["error-alert"]}
-              style={{ display: errorMessage ? "block" : "none" }}
+              className={styles["error-icon"]}
+              style={{ display: errorMessage ? "flex" : "none" }}
             >
-              {errorMessage}
+              <img src={errorIcon} alt="" aria-hidden="true" />
             </span>
-          </form>
-        </div>
-      </section>
+          </div>
+          <button
+            aria-label="Submit"
+            className={styles["submit-btn"]}
+            type="submit"
+          >
+            <img alt="submit" src={arrowIcon} />
+          </button>
+          <span
+            className={styles["error-alert"]}
+            style={{ display: errorMessage ? "block" : "none" }}
+          >
+            {errorMessage}
+          </span>
+        </form>
+      </div>
     </>
   );
 }

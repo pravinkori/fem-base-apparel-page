@@ -25,5 +25,22 @@ body {
   background: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
   background-size: cover;
   background-repeat: no-repeat;
-  overflow: hidden;
+}
+
+@media (min-width: 1440px) {
+  body {
+    background-image: url("../assets/images/bg-pattern-desktop.svg");
+    background-repeat: no-repeat;
+    overflow: hidden;
+  }
+
+  main {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: auto 61rem;
+    grid-template-rows: 16.3rem auto;
+    grid-template-areas:
+      "logo hero"
+      "page-content hero";
+  }
 }
