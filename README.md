@@ -1,8 +1,46 @@
-# React + Vite
+# Frontend Mentor - Base Apparel coming soon page solution
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a solution to the [Base Apparel coming soon page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/base-apparel-coming-soon-page-5d46b47f8db8a7063f9331a0). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-Currently, two official plugins are available:
+## Table of contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+- [Author](#author)
+
+## Overview
+
+### The challenge
+
+Users should be able to:
+
+- See hover and focus states for all interactive elements on the page
+
+### Screenshot
+
+![](./public/screenshot.png)
+
+### Links
+
+- Solution URL: [Frontend Mentor]()
+- Live Site URL: [Github Pages](https://pravinkori.github.io/fem-base-apparel-page/)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
+
+## Author
+
+- Frontend Mentor - [@pravinkori](https://www.frontendmentor.io/profile/pravinkori)
+- Twitter - [@QwertyLegacy](https://twitter.com/QwertyLegacy)
