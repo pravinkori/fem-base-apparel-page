@@ -1,4 +1,4 @@
-.container {
+.hero {
   background-image: linear-gradient(
     135deg,
     hsl(0, 0%, 100%),
@@ -115,4 +115,46 @@ form {
   color: hsl(0, 93%, 68%);
   margin: 0.5rem;
   display: none;
+}
+
+@media (min-width: 1440px) {
+  .logo {
+    grid-area: logo;
+    padding: 6rem 0 0 31rem;
+  }
+
+  .logo img {
+    position: absolute;
+    height: 2rem;
+  }
+
+  .hero {
+    grid-area: hero;
+  }
+
+  .page-content {
+    grid-area: page-content;
+    padding: 1rem 20rem;
+  }
+
+  .page-title {
+    text-align: left;
+    margin-bottom: 2rem;
+    font-size: 4rem;
+    padding-left: 11rem;
+  }
+
+  .page-description {
+    text-align: left;
+    font-size: 1rem;
+    padding-left: 11rem;
+  }
+
+  .form-input {
+    padding-left: 11rem;
+  }
+
+  .error-alert {
+    margin-left: 12rem;
+  }
 }
